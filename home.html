@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>KTU Login Page</title>
+<style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Source+Sans+Pro:wght@200&display=swap');
+body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+a{
+ text-decoration: none;
+ color: black;
+ }
+
+a:hover{
+ color: #bbb;
+ }  
+
+#toplink{
+ float: left;
+ color: #3671B9;
+ font-size: 20px;
+ font-family: 'Roboto', sans-serif;
+ display: flex;
+ align-items: center;
+ }
+
+#title{
+ background-color: #428bca;
+ border-radius: 5px;
+ height: 30px;
+ padding: 15px;
+ color: white;
+ font-size: 23px;
+ font-family: Arial;
+ }
+
+#menu{
+ float:right;
+ font-size: 13px;
+ }
+
+#form {
+    padding: 10px;
+  }
+
+#signin {
+      background-color: #6facf5;
+      height: 30px;
+      padding: 10px;
+      color: white;
+      font-family: Arial;
+      font-size: 25px;
+    }
+
+#button {
+      height: 35px;
+      width: 100%;
+      float: center; 
+      padding:3px;
+      color: white;
+      text-align: center;
+      background-color: #00bf66;
+      border: 0px;
+      border-radius: 5px;
+    }
+
+#forgot-password {
+      float:right;
+      font-size: 13px;
+      color: #3671b9;
+    }
+#forgot-password:hover {
+      color: #bbb;
+      font-family: Arial;
+    }
+
+.header{
+ background-color: #d0e1f4;
+ border-bottom: 3px solid #428bca;
+ padding: 5px;
+ height:38px;
+ }
+
+.main {
+      width: 70%;
+      float: left;
+      margin: 20px;
+      padding: 5px;
+    }
+
+.section{
+ background-color: #fff;
+ height: 200px;
+ padding: 20px;
+ font-size: 15px;
+ font-family: Arial;
+ color: #555;
+ border: 1px dotted #555;
+ border-radius: 5px;
+ } 
+
+.login {
+      height: 300px;
+      width: 21%;
+      float: right;
+      margin: 20px;
+      border: 1px solid #007ca6;
+      border-radius: 5px;
+    }
+.form-label {
+      display: inline-block;
+      margin-bottom: 2px;
+      font-size: 13px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+      color: #3671b9;
+   }
+.section-head {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      font-size: 20px;  
+  }
+
+</style>
+</head>
+<body>
+
+<div class=header>
+  <a href=# id=toplink>
+  <img src="logo.png" height="35" width="30">
+   e-Gov Platform for APJ Abdul Kalam Technological University
+  </a>
+  <p align="right" id="menu">
+  <a href=#>Home &nbsp&nbsp</a>
+  <a href=#>Registration &nbsp&nbsp</a>
+  <a href=#>Research &nbsp&nbsp</a>
+  <a href=#>FAQ &nbsp&nbsp</a>
+  <a href=#>Contact Us &nbsp&nbsp</a>
+  </p>
+</div>
+
+<div class=main>
+
+  <a href=#>
+  <div id=title>
+    APJ Abdul Kalam Technological University e-Governance Portal
+  </div>
+  <div class=section>
+   <div class=section-head>
+     <img src="a.png" width="50" height="50">
+     <font color="#33bbff">&nbsp;Institutions</font><br/><br/>
+   </div>     
+  Institutions that are affiliated/applying for affiliation with APJ Abdul Kalam Technological University can click here to login to the e-Gov application. Institution users can perform activities related to affiliation, student registration and academics, make fee payments etc. Colleges can view the student records that includes personal information, admission information, attendance details, internal evaluation details, mark lists, student history and other details after logging on. For the programs offered by the university, colleges can view the curriculum and choose the courses for each branch/stream running there. 
+  </div>
+  </a>
+ 
+ <a href=#> 
+ <div class=section>
+  <div class=section-head>
+  <img src="b.png" width="50" height="50">
+  <font color="#32a852">&nbsp;Students</font><br/><br/>
+  </div>
+  Students who are admitted in colleges affiliated to APJ Abdul Kalam Technological University can click here to login to the e-Gov application. Registered students can use the student portal to gain access to personalized information and also view their academic details, attendance and marks, earned credits etc. They can download their mark list, grade sheet etc and access educational information. The portal also allows students to securely communicate with the university.
+  </div>
+  </a>
+
+ <a href=#>
+ <div class=section>
+  <div class=section-head>
+  <img src="c.png" width="50" height="50">
+  <font color="#ffcc00">&nbsp;University</font><br/><br/>
+  </div>
+  Institutions that are affiliated/applying for affiliation with APJ Abdul Kalam Technological University can click here to login to the e-Gov application. Institution users can perform activities related to affiliation, student registration and academics, make fee payments etc. Colleges can view the student records that includes personal information, admission information, attendance details, internal evaluation details, mark lists, student history and other details after logging on. For the programs offered by the university, colleges can view the curriculum and choose the courses for each branch/stream running there. 
+  </div>
+  </a>
+
+</div> 
+
+ <div class=login>
+    <div id=signin>
+      Sign In
+    </div>
+    <div id=form>
+      <form>
+        <br>
+        <label class="form-label">Username</label><br>
+        <input type=text placeholder="Enter Username"><br><br>
+        <label class="form-label">Password</label><br>
+        <input type=password placeholder="Enter Password"><br><br>
+        <button id="button" value="Login">Login</button><br><br>
+        <a href=# id="forgot-password"><label>Forgot Password?</label></a>
+      </form>
+    </div>
+  </div> 
+  
+</body>
+</html>
+
